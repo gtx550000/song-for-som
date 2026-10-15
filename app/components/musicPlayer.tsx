@@ -23,9 +23,9 @@ interface Song {
 const initialSongs: Song[] = [
   { id: 1, title: "1-100", src: "https://youtu.be/pt-0LgCVcUI" },
   { id: 2, title: "โปรดฉส่งใครมารักฉันที", src: "https://youtu.be/EDF7riZLhNA?si=ZHEJFNrI_os85nD3" },
-  { id: 3, title: "โต๊ะริม - NONT TANONT", src: "https://youtu.be/8wNox2XU7E4" },
-  { id: 4, title: "กลิ่นดอกไม้ - Newery", src: "https://youtu.be/9i21Qe75zoc" },
-  { id: 5, title: "ทรายกับทะเล", src: "https://youtu.be/k-a8jM1H2iY" },
+  { id: 3, title: "โต๊ะริม - NONT TANONT", src: "https://youtu.be/XqQMisU5En8?si=TgbaW7y7w2_ZbBjW" },
+  { id: 4, title: "กลิ่นดอกไม้ - Newery", src: "https://youtu.be/71KuVORecY8?si=_gJh1I9J3JB7pQE2" },
+  { id: 5, title: "ทรายกับทะเล", src: "https://youtu.be/dMpBjCNZE0c?si=nO6raMwVqka2_TrX" },
 ];
 
 function extractYouTubeId(url: string): string | null {
