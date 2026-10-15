@@ -57,9 +57,9 @@ export default function MusicPlayer() {
   const [isYTReady, setIsYTReady] = useState(false);
   
   // จัดการระดับเสียง (0 - 100)
-  const [volume, setVolume] = useState(80);
+  const [volume, setVolume] = useState(50);
   const [isMuted, setIsMuted] = useState(false);
-  const [prevVolume, setPrevVolume] = useState(80);
+  const [prevVolume, setPrevVolume] = useState(50);
 
   const [showAddModal, setShowAddModal] = useState(false);
   const [newTitle, setNewTitle] = useState("");
